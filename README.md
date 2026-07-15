@@ -37,12 +37,12 @@ In campo medico il machine learning sta venendo utilizzato in scala sempre maggi
 
 Tutte le metriche sono calcolate sulla classe **Maligno**, poiché è la classe di interesse su cui vogliamo minimizzare i falsi negativi, e non sulla media tra le due classi.
 
-| Modello | Precision (Maligno) | Recall (Maligno) | F1 (Maligno) |
-|---|---|---|---|
-| **Logistic Regression** | 0.98 | 0.98 | 0.98 |
-| SVM | 0.93 | 0.98 | 0.95 |
-| Random Forest | 0.91 | 0.95 | 0.93 |
-| MLP | 0.93 | 0.95 | 0.94 |
+    | Modello | Precision (Maligno) | Recall (Maligno) | F1 (Maligno) |
+    |---|---|---|---|
+    | **Logistic Regression** | 0.98 | 0.98 | 0.98 |
+    | SVM | 0.93 | 0.98 | 0.95 |
+    | Random Forest | 0.91 | 0.95 | 0.93 |
+    | MLP | 0.93 | 0.95 | 0.94 |
 
 Ordine dei modelli per performance sulla recall della classe maligna:
 
